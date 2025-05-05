@@ -1,7 +1,6 @@
 """The application entry point."""
 
 import argparse
-from importlib.metadata import version
 from typing import Final
 from ._version import __version__
 
