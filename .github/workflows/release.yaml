@@ -36,6 +36,10 @@ jobs:
         run: |
           cd dist && echo "hashes=$(sha256sum * | base64 -w0)" >> $GITHUB_OUTPUT
 
+      - name: "Display the generated hashes"
+        run: |
+          echo "Generated hashes: ${{ steps.hash.outputs.hashes }}"
+
       - name: "Upload dists"
         uses: actions/upload-artifact@v4
         with:
