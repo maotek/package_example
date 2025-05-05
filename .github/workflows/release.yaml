@@ -48,8 +48,8 @@ jobs:
           if-no-files-found: error
           retention-days: 5
 
-  publish-to-github:
-    name: "Publish to GitHub"
+  Release-to-github:
+    name: "Release to GitHub 👀"
     needs: ["build"]
     runs-on: "ubuntu-latest"
     environment:

@@ -41,5 +41,6 @@ dev = [
 maotek = "maotek.main:app"
 
 [project.urls]
-Homepage = "https://dev.to/jphutchins/building-a-universally-portable-python-app-2gng"
+Referencepage = "https://dev.to/jphutchins/building-a-universally-portable-python-app-2gng"
+Referencepage2 = "https://github.com/urllib3/urllib3"
 Repository = "https://github.com/maotek/package_example"
