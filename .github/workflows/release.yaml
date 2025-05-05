@@ -28,7 +28,6 @@ jobs:
 
       - name: "Build dists"
         run: |
-#          SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct) \
           hatch build
 
       - name: "Generate hashes"
