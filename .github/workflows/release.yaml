@@ -24,12 +24,12 @@ jobs:
           python-version: "3.x"
 
       - name: "Install dependencies"
-        run: python -m pip install build==0.8.0
+        run: python -m pip install hatch
 
       - name: "Build dists"
         run: |
-          SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct) \
-          python -m build
+#          SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct) \
+          hatch build
 
       - name: "Generate hashes"
         id: hash
