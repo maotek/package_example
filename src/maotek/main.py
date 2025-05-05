@@ -42,7 +42,7 @@ def app() -> None:
         raise SystemExit(0)
 
     print("Hello, World!")
-    print(pandas.DataFrame)
+    print(f"Pandas version: {pandas.__version__}")
 
     if args.input is True:
         input("Press any key to exit...")
