@@ -28,6 +28,7 @@ classifiers = [
 
 dependencies = [
     # Add your project dependencies here
+    'pandas'
 ]
 
 [project.optional-dependencies]

@@ -3,7 +3,7 @@
 import argparse
 from typing import Final
 from ._version import __version__
-
+import pandas
 
 def app() -> None:
     """The application entry point."""
@@ -42,6 +42,7 @@ def app() -> None:
         raise SystemExit(0)
 
     print("Hello, World!")
+    print(pandas.DataFrame)
 
     if args.input is True:
         input("Press any key to exit...")
