@@ -3,4 +3,4 @@ import maotek
 
 app()
 print(maotek.__version__)
-print('dd')
+print('Hello World')
